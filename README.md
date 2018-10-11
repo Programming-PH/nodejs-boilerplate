@@ -55,7 +55,7 @@ But the sole purpose of using .env file for our project is to secure our credent
 
 ### 🎩 Authors
   - Jorge Rosal - [GitHub](https://github.com/yortrosal)
-  - <your name here>
+  - your name here...
 
 ### 📜 License
 The MIT License (MIT) Jorge Rosal
