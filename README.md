@@ -3,9 +3,10 @@ Clean and minimalistic boilerplate to start your NodeJs project.
 
 ### ⭐ Good for
   - Building a worker scripts.
-  - Scraper and parser tool.
+  - Building scripting and automation tool.
   - Stand-alone, fully customizable project.
   - Creating clean file structured project.
+  - Following standard naming conventions so collaborators/team8s can understand easily your code.
 
 ### 📘 Prerequisites
  - NodeJs Installed in your local environment.
@@ -14,17 +15,15 @@ Clean and minimalistic boilerplate to start your NodeJs project.
 ### 📝 Usage
 1. Clone the repo to your local environment.
   - On the command prompt run the following commands:
-    ```
-   $ git clone https://github.com/yortrosal/nodejs-boilerplate.git
-   $ cd nodejs-boilerplate
-   ```
-2. ```npm install``` to install initial dependencies.
+    run ```git clone https://github.com/yortrosal/nodejs-boilerplate.git ```
+    then ```cd nodejs-boilerplate ```
+2. run ```npm install``` to install initial dependencies.
 3. Make sure you have .env file available.
    Or generate one:  ```cp .env.example .env``` (edit it with your secret keys and other credentials)
 4. Once you have the .env file setup in the main directory.
 5. run ▶️ ```npm start``` to start the program. It will run the script from the app.js file.
 6. Modify the package.json file. Edit the project name and other stuff.
-7. Finally, start and build your application scripts.
+7. Finally, start and build your application scripts. Customize your project however you like.
 
 ###  📘 Why is it important to use env file?
 It has variety of usage. Find out [more](https://codeburst.io/process-env-what-it-is-and-why-when-how-to-use-it-effectively-505d0b2831e7).
