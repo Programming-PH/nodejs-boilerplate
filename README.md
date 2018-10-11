@@ -9,7 +9,7 @@ Clean and minimalistic boilerplate to start your NodeJs project.
   - Following standard naming conventions so collaborators/team8s can understand easily your code.
   - Securing your login and api key details by using environment variable -- [dotenv](https://github.com/motdotla/dotenv)
 
-### 📘 Prerequisites
+### 📂 Prerequisites
  - NodeJs, git installed in your local environment.
  - .env file -- Yes you need this!
 
@@ -47,6 +47,7 @@ But the sole purpose of using .env file for our project is to secure our credent
       ├── .env
       ├── .plans
       ├── .gitignore
+      ├── app.js
       ├── package.json
       └── README.md
 
