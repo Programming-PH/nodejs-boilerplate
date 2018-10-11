@@ -17,14 +17,14 @@ Clean and minimalistic boilerplate to start your NodeJs project.
 1. Clone the repo to your local environment.
   - In the command prompt run the following commands:
     ```
-    git clone https://github.com/yortrosal/nodejs-boilerplate.git
-    cd nodejs-boilerplate 
+    $ git clone https://github.com/yortrosal/nodejs-boilerplate.git
+    $ cd nodejs-boilerplate
     ```
-2. run ```npm install``` to install initial dependencies.
+2. run ```$ npm install``` to install initial dependencies.
 3. Make sure you have .env file available.
-   Or generate one:  ```cp .env.example .env``` (edit it with your secret keys and other credentials)
+   Or generate one:  ```$ cp .env.example .env``` (edit it with your secret keys and other credentials)
 4. Once you have the .env file setup in the main directory.
-5. run ▶️ ```npm start``` to start the program. It will run the script from the app.js file.
+5. run ▶️ ```$ npm start``` to start the program. It will run the script from the app.js file.
 6. Modify the package.json file. Edit the project name and other stuff.
 7. Finally, start and build your application scripts. Customize your project however you like.
 
