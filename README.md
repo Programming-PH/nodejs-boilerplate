@@ -16,8 +16,10 @@ Clean and minimalistic boilerplate to start your NodeJs project.
 ### 📝 Usage
 1. Clone the repo to your local environment.
   - In the command prompt run the following commands:
-    run ```git clone https://github.com/yortrosal/nodejs-boilerplate.git ```
-    then ```cd nodejs-boilerplate ```
+    ```
+    git clone https://github.com/yortrosal/nodejs-boilerplate.git
+    cd nodejs-boilerplate 
+    ```
 2. run ```npm install``` to install initial dependencies.
 3. Make sure you have .env file available.
    Or generate one:  ```cp .env.example .env``` (edit it with your secret keys and other credentials)
