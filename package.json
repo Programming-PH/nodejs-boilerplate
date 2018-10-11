@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-boilerplate",
+  "version": "1.0.0",
+  "description": "Clean and minimalistic boilerplate to start your NodeJs project.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "NodeJs Boilerplate",
+    "Kickstarter project for node"
+  ],
+  "author": "Jorge Rosal",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^6.1.0"
+  }
+}
