@@ -3,18 +3,19 @@ Clean and minimalistic boilerplate to start your NodeJs project.
 
 ### ⭐ Good for
   - Building a worker scripts.
-  - Building scripting and automation tool.
-  - Stand-alone, fully customizable project.
-  - Creating clean file structured project.
+  - Stand-alone scripting and automation tool.
+  - Fully customizable project.
+  - Clean file structuring.
   - Following standard naming conventions so collaborators/team8s can understand easily your code.
+  - Securing your login and api key details by using environment variable -- [dotenv](https://github.com/motdotla/dotenv)
 
 ### 📘 Prerequisites
- - NodeJs Installed in your local environment.
+ - NodeJs, git installed in your local environment.
  - .env file -- Yes you need this!
 
 ### 📝 Usage
 1. Clone the repo to your local environment.
-  - On the command prompt run the following commands:
+  - In the command prompt run the following commands:
     run ```git clone https://github.com/yortrosal/nodejs-boilerplate.git ```
     then ```cd nodejs-boilerplate ```
 2. run ```npm install``` to install initial dependencies.
@@ -29,10 +30,7 @@ Clean and minimalistic boilerplate to start your NodeJs project.
 It has variety of usage. Find out [more](https://codeburst.io/process-env-what-it-is-and-why-when-how-to-use-it-effectively-505d0b2831e7).
 But the sole purpose of using .env file for our project is to secure our credentials such as logins, api keys, and other important stuff. It is important not to include your .env file when you in our repository specially when your project is public. It's easy
 
-### Accessing your credentials from .env file.
-
-
-## 🏗 Project Structure
+### 🏗 Project Structure
     nodejs-boilerplate
       ├── core
       │   ├── custom-subfolder-example
@@ -45,9 +43,13 @@ But the sole purpose of using .env file for our project is to secure our credent
       │
       ├── .env.example
       ├── .env
+      ├── .plans
       ├── .gitignore
       ├── package.json
       └── README.md
+
+### Initial Dependency
+  - [ckey](https://www.npmjs.com/package/ckey) - a dotenv helper for accessing process.env object from sub-directory.
 
 ### 💬 Tech Support
   - If things went wrong, google it first. People ahead of you have had similar issues in the past and solved it.
