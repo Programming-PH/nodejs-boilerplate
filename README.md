@@ -1,5 +1,7 @@
 # A NodeJs Project Kickstarter Biolerplate
-Clean and minimalistic boilerplate to start your NodeJs project.
+Clean, minimalistic boilerplate to start your NodeJs project.
+
+NodeJS is far too powerful to be limited to just running your website. Whether building a website, comminicating with the database or writing a script to automate a file process, you can't go wrong with NodeJS.
 
 ### ⭐ Good for
   - Building a worker scripts.
