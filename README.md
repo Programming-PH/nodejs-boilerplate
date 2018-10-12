@@ -7,6 +7,7 @@ NodeJS is far too powerful to be limited to just running your website. Whether b
   - Building a worker scripts.
   - Stand-alone scripting and automation tool.
   - Fully customizable project.
+  - Forcing you to write clean-easy-to-read code.
   - Clean file structuring.
   - Following standard naming conventions so collaborators/team8s can understand easily your code.
   - Securing your login and api key details by using environment variable -- [dotenv](https://github.com/motdotla/dotenv)
@@ -29,6 +30,11 @@ NodeJS is far too powerful to be limited to just running your website. Whether b
 5. run ▶️ ```$ npm start``` to start the program. It will run the script from the app.js file.
 6. Modify the package.json file. Edit the project name and other stuff.
 7. Finally, start and build your application scripts. Customize your project however you like.
+
+### Recommendation
+Try to add your script and other stuff inside /core folder.
+If you want to run specific script inside the ./core folder, try to set it in package.json script.
+For example, when you try to run ```./core/hello-world.js```, instead of ```cd core && node hello-world```, you can use a command that was set in package.json file ```npm run hello-world```.
 
 ###  📘 Why is it important to use env file?
 It has variety of usage. Find out [more](https://codeburst.io/process-env-what-it-is-and-why-when-how-to-use-it-effectively-505d0b2831e7).
