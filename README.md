@@ -54,7 +54,7 @@ But the sole purpose of using .env file for our project is to secure our credent
       └── README.md
 
 ### Initial Dependency
-  - [ckey](https://www.npmjs.com/package/ckey) - a dotenv helper for accessing process.env object from sub-directory.
+  - [ckey](https://www.npmjs.com/package/ckey) - a [dotenv](https://github.com/motdotla/dotenv) helper for accessing process.env object from sub-directory.
 
 ### 💬 Tech Support
   - If things went wrong, google it first. People ahead of you have had similar issues in the past and solved it.
