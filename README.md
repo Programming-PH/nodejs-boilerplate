@@ -32,7 +32,7 @@ NodeJS is far too powerful to be limited to just running your website. Whether b
 
 ###  📘 Why is it important to use env file?
 It has variety of usage. Find out [more](https://codeburst.io/process-env-what-it-is-and-why-when-how-to-use-it-effectively-505d0b2831e7).
-But the sole purpose of using .env file for our project is to secure our credentials such as logins, api keys, and other important stuff. It is important not to include your .env file when you in our repository specially when your project is public. It's easy
+But the sole purpose of using .env file for our project is to secure our credentials such as logins, api keys, and other important stuff. It is important not to include your .env file when you in our repository specially when your project is public.
 
 ### 🏗 Project Structure
     nodejs-boilerplate
@@ -42,7 +42,7 @@ But the sole purpose of using .env file for our project is to secure our credent
       │   │   ├── example2.js
       │   │   └── example3.js
       │   │
-      │   ├── your-script.js
+      │   ├── access-credentials.js
       │   └── hello-world.js
       │
       ├── .env.example
