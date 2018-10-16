@@ -14,7 +14,7 @@ NodeJS is far too powerful to be limited to just running your website. Whether b
 
 ### 📂 Prerequisites
  - NodeJs, git installed in your local environment.
- - .env file -- Yes you need this!
+ - 🔐 **.env** file -- Yes you need this! 🔑🔑🔑
 
 ### 📝 Usage
 1. Clone the repo to your local environment.
