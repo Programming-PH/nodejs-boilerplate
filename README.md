@@ -1,7 +1,7 @@
 # A NodeJs Project Kickstarter Biolerplate
 Clean, minimalistic boilerplate to start your NodeJs project.
 
-NodeJS is far too powerful to be limited to just running your website. Whether building a website, comminicating with the database or writing a script to automate a file process, you can't go wrong with NodeJS.
+NodeJS is far too powerful to be limited to just running your website. Whether building a website, communicating with the database or writing a script to automate a file process, you can't go wrong with NodeJS.
 
 ### ⭐ Good for
   - Building a worker scripts.
@@ -52,7 +52,7 @@ But the sole purpose of using .env file for our project is to secure our credent
       │   └── hello-world.js
       │
       ├── .env.example
-      ├── .env
+      ├── .env  // store all your credentials here
       ├── .plans
       ├── .gitignore
       ├── app.js
@@ -61,6 +61,9 @@ But the sole purpose of using .env file for our project is to secure our credent
 
 ### Initial Dependency
   - [ckey](https://www.npmjs.com/package/ckey) - a [dotenv](https://github.com/motdotla/dotenv) helper for accessing process.env object from sub-directory.
+
+### Storing Credentials in .env file
+  - This is where you put your login credentials, secret keys, and other confidential information. Never include when you commit your repository. Make sure it is included in .gitignore file so it wont be included.
 
 ### 💬 Tech Support
   - If things went wrong, google it first. People ahead of you have had similar issues in the past and solved it.

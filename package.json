@@ -4,7 +4,6 @@
   "description": "Clean and minimalistic boilerplate to start your NodeJs project.",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js",
     "hello-world": "node core/hello-world.js"
   },
