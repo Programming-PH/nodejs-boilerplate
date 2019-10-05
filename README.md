@@ -1,5 +1,5 @@
 # A NodeJs Project Kickstarter Biolerplate
-Clean, minimalistic boilerplate to start your NodeJs project.
+Clean, minimalistic boilerplate to start your NodeJs project. It helps you structure your file in a more conventional way.
 
 NodeJS is far too powerful to be limited to just running your website. Whether building a website, communicating with the database or writing a script to automate a file process, you can't go wrong with NodeJS.
 
@@ -71,7 +71,8 @@ But the sole purpose of using .env file for our project is to secure our credent
 
 ### 🎩 Authors
   - Jorge Rosal - [GitHub](https://github.com/yortrosal)
-  - your name here...
 
+### Contribution
+  - Feel free to submin PR. Please follow ESLINT Rule. 
 ### 📜 License
 The MIT License (MIT) Jorge Rosal
